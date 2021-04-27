@@ -12,49 +12,44 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    {% render_block "css" %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"> {% render_block "css" %}
 </head>
 
 <body>
     <nav style="background-color:#575757;" class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px; margin-left: 200px;"
-                href="#">Personal</a>
+            <a class="nav-link personal" href="#">Personal</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Private</a>
+            <a class="nav-link nav-small" href="#">Private</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Business</a>
+            <a class="nav-link nav-small" href="#">Business</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Corporate</a>
+            <a class="nav-link nav-small" href="#">Corporate</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Explore
+            <a class="nav-link locate" href="#">Explore
                 Boubyan</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px; margin-right: 350px;"
-                href="#">Locate us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Locate us</a>
+            <a class="nav-link nav-small" href="#">Locate us</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Contact us</a>
+            <a class="nav-link nav-small" href="#">Contact us</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">Careers</a>
+            <a class="nav-link nav-small" href="#">Careers</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" style="text-decoration: none; color: white; font-size: 11px;" href="#">عربي</a>
+            <a class="nav-link nav-small" href="#">عربي</a>
         </li>
     </nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-background">
         <div class="collapse navbar-collapse" id="navbarNav" style="margin-left: 300px;">
             <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -63,44 +58,51 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Accounts</span> <br> <small style="font-size: 8px;">Everyday banking</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Accounts</span> <br> <small style="font-size: 8px;">Everyday
+                            banking</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Cards</span> <br> <small style="font-size: 8px;">Rewards and offers</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Cards</span> <br> <small style="font-size: 8px;">Rewards and
+                            offers</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Borrowing</span> <br> <small style="font-size: 8px;">Meeting financal needs</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Borrowing</span> <br> <small style="font-size: 8px;">Meeting
+                            financal needs</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Investing</span> <br> <small style="font-size: 8px;">Growing wealth</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Investing</span> <br> <small style="font-size: 8px;">Growing
+                            wealth</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Ways to bank</span> <br> <small style="font-size: 8px;">Access anywhere, anytime</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Ways to bank</span> <br> <small
+                            style="font-size: 8px;">Access anywhere, anytime</small>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 20px;" href="#">
-                        <span style="font-weight: bolder;">Discounts & offers</span> <br> <small style="font-size: 8px;">For our customers</small>
+                    <a class="nav-link mt-3 nav-spans" href="#">
+                        <span style="font-weight: bolder;">Discounts & offers</span> <br> <small
+                            style="font-size: 8px;">For our customers</small>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 100px;" href="#">
-                        <span style="font-weight: bolder;"><img src="{% static 'images/search.svg' %}" alt="" height="30px"></span>
+                    <a class="nav-link mt-3 search-icon" href="#">
+                        <span style="font-weight: bolder;"><img src="{% static 'images/search.svg' %}" alt=""
+                                height="30px"></span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mt-3" style="font-size: 12px; margin-left: 10px;" href="#">
-                        <button type="button" class="btn btn-danger sm" style=" height: 10px; width: 100px; padding-bottom: 33px; padding-top: 5px;">Login</button>
+                    <a class="nav-link mt-3 login-link" href="#">
+                        <button type="submit" class="login-button">Login</button>
                     </a>
                 </li>
 
@@ -108,40 +110,334 @@
         </div>
     </nav>
 
-    <div >
-        <div style="background-color: rgb(248, 248, 248); height: 550px; border-radius: 0px 0px 1000px 0px;">
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <div style="padding-top: 50px; font-size: 10px; margin-left: 45px;">
-                            <span>home</span> > <span>Ways to bank</span> > <span style="color: red;">Boubyan Mobile App</span>
-                        </div>
-                        <img src="{% static 'images/credit1.png' %}" alt="" height="500px" width="400px">
+    <!-- Start Banner -->
+
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="mobile">
+                        <span>home</span> > <span>Ways to bank</span> > <span style="color: red;">Boubyan Mobile
+                            App</span>
                     </div>
-                    <div class="col-6">
-                        <div style="padding-top: 200px;">
-                        <p style="font-weight: 700; color: rgb(107, 107, 107);">The power of banking in your hand</p>
-                        <p style="font-size: 12px; color: rgb(172, 172, 172);">Digital banking just got real with our mobile app</p>
+                    <img src="{% static 'images/credit1.png' %}" alt="" height="500px" width="400px">
+                </div>
+                <div class="col-6">
+                    <div style="padding-top: 200px;">
+                        <p class="bank-power">The power of banking in your hand</p>
+                        <p class="digital">Digital banking just got real with our mobile app</p>
                         <span><img src="{% static 'images/google.png' %}" alt="" height="30px" width="100px"></span>
                         <span><img src="{% static 'images/apple.png' %}" alt="" height="30px" width="100px"></span> <br>
-                        <img style="background-color:#adadad; margin-top: 20px;" src="{% static 'images/boubyan_globalfinance.png' %}" alt="">
-                        <p style="font-weight: bold; color:rgb(107, 107, 107); margin-top: 20px;">BEST MOBILE BANKING APP</p>
+                        <img class="global-img" src="{% static 'images/boubyan_globalfinance.png' %}" alt="">
+                        <p class="disc">BEST MOBILE BANKING APP</p>
 
                     </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Easy Managemant component -->
+    <div class="main">
+        <h4 class="easy-title">Easy management of your cards</h4>
+
+        <div class="container">
+            <div class="row row-center">
+                <div class="col-4">
+                    <img src="{% static 'images/credit-card.svg' %}" alt="" height="80" width="80">
+                    <h6 class="title-cards">Empowering you</h6>
+                    <p class="desc-cards">View transactions, change your PIN code, <br>
+                        setup your cards when you travel and so <br>
+                        much more</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="{% static 'images/group-39.svg' %}" alt="" height="80" width="80">
+
+                    <h6 class="title-cards">Boubyan Rewards with any purchase</h6>
+                    <p class="desc-cards">View your points and redeem them for cash, <br>
+                        airline miles and hotel points anytime <br>
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <img src="{% static 'images/icons-8-insert-credit-card.svg' %}" alt="" height="80" width="80">
+
+                    <h6 class="title-cards">Pick up a new card anytime</h6>
+                    <p class="desc-cards">For new account, replacement of a lost card or <br>
+                        to renew an existing card, request through <br>
+                        the app and pick it up at anytime at any of our <br>
+                        card issuance machines across Kuwait .</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End Easy -->
+
+    <!-- Start transfers -->
+    <div class="easy-title main">
+        <h4 style="color: #53585c;">So many ways to send money …</h4>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-1 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/currency-exchange-red.svg' %}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Instant transfers anywhere</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">Send
+                                money to any local and international <br>
+                                bank anytime and anywhere.</p>
+                        </div>
                     </div>
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/group-15.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Western Union transfers</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Send money through Western Union from <br>
+                                the comfort of your home.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-8">
+                    <img class="center-img" src="{% static 'images/i-phone-x@3x.jpg' %}" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle"
+                                style="background-color: #dfdfdf; border-radius: 100px;">
+                                <img class="rounded-circle" src="{% static 'images/cash-withdraw.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">ATM pay outs</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Owe someone cash? Ask him to visit any <br>
+                                Boubyan ATM, and provide him a code or <br>
+                                ask him to use his civil ID to retrieve cash.</p>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle"
+                                style="background-color: #dfdfdf; border-radius: 100px;">
+                                <img class="rounded-circle" src="{% static 'images/statement-red.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">Pay your bills</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Pay your telecom bills and school tuition fees <br>
+                                in seconds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End transfers -->
+
+    <!-- start Receive -->
+    <div class="easy-title main">
+        <h4 style="color: #53585c;">… and recieve it</h4>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle">
+                                <img class="rounded-circle" class="rounded-circle" src="{% static 'images/group.svg' %}"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Pay Me</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Receive money from any holder or holders of <br>
+                                a Kuwaiti debit card by simply sharing a link <br>
+                                with them or using KNET or your phone.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/shape (1).svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Send them your trasnfer details</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                A simple click to send your account details <br>
+                                to anyone who needs to transfer money to <br>
+                                your account.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-8">
+                    <img class="center-img" src="{% static 'images/i-phone-x@3x.jpg' %}" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/clip-2.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">Withdraw without a card</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Withdraw cash from Boubyan ATMs with a <br>
+                                code generate through the app.</p>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-1 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/shape.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">Western Union transfers</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Send money to yourself with Western Union <br>
+                                transfers when you are abroad and need <br>
+                                cash.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Receive -->
+
+    <!-- Start Done -->
+    <div class="easy-title main">
+        <h4 style="color: #53585c;">Get things done faster</h4>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-1 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/home-apply.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Open an account</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                You can instantly open a new account with <br>
+                                any of the 5 major currencies.</p>
+                        </div>
+                    </div>
+
+                    <div class="card card-2">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle">
+                                <img class="rounded-circle" src="{% static 'images/home-apply (1).svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p style="text-align: initial;">Open a new fixed deposit</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                You can also open a new fixed deposit and <br>
+                                start earning profits.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-8">
+                    <img class="center-img" src="{% static 'images/i-phone-x@3x.jpg' %}" alt="">
+                </div>
+                <div class="col-2">
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle"
+                                style="background-color: #dfdfdf; border-radius: 100px;">
+                                <img class="rounded-circle" src="{% static 'images/group-14.svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">Apply for financing</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Apply using the Boubyan App.</p>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div style="margin-left: -300px; margin-top: -18px;">
+                            <div class="instant-2 rounded-circle"
+                                style="background-color: #dfdfdf; border-radius: 100px;">
+                                <img class="rounded-circle" src="{% static 'images/shape (2).svg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-title" style="text-align: initial;">UTap on Android phones</p>
+                            <p class="card-text" style="font-size: 15px; text-align: initial; color: #8a8e90;">
+                                Your phone is now your wallet. Simply tap <br>
+                                your phone to make a payment or to use a <br>
+                                Boubyan ATM.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Done -->
+
+    <div>
+        <div class="easy-title main">
+            <h4 style="color: #53585c; font-weight: bolder;">Msa3ed. At your service 24/7.</h4>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="{% static 'images/msa-3-ed.svg' %}" alt=""
+                        style="margin-left: 400px; margin-top: -170px;">
+
+                </div>
+                <div class="col-9">
+                    <p
+                        style="margin-top: -120px; margin-left: 480px; background-color: #dadada; padding: 0px 0px 2px 7px; border-radius: 10px;">
+                        Can’t wait to meet you. <br>
+                        Download the app and let’s get started.
+                    </p>
+
                 </div>
 
             </div>
         </div>
+
     </div>
 
-    {% comment %} {% cms_toolbar %} {% endcomment %}
+
+    <!-- {% cms_toolbar %} -->
     <div class="container">
         {% block content %}{% endblock content %}
     </div>
 
-
+    <div style="margin-bottom: 500px;"></div>
     {% render_block "js" %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
