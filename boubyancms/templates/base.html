@@ -12,7 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}"> {% render_block "css" %}
+    <link rel="stylesheet" href="{% static 'css/base_style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    {% render_block "css" %}
 </head>
 
 <body>
@@ -406,6 +409,7 @@
     </div>
     <!-- End Done -->
 
+    <!-- Start MSA -->
     <div>
         <div class="easy-title main">
             <h4 style="color: #53585c; font-weight: bolder;">Msa3ed. At your service 24/7.</h4>
@@ -419,7 +423,7 @@
                 </div>
                 <div class="col-9">
                     <p
-                        style="margin-top: -120px; margin-left: 480px; background-color: #dadada; padding: 0px 0px 2px 7px; border-radius: 10px;">
+                        style="margin-top: -120px; margin-left: 480px; background-color: #dadada; padding: 0px 0px 2px 7px; border-radius: 10px;f">
                         Can’t wait to meet you. <br>
                         Download the app and let’s get started.
                     </p>
@@ -430,6 +434,395 @@
         </div>
 
     </div>
+    <!-- End MSA -->
+
+    <!-- Start Love App -->
+    <div class="main">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div><img src="{% static 'images/7-icon.svg' %}" alt=""></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div><img src="{% static 'images/icons-8-listen.svg' %}" alt=""></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div><img src="{% static 'images/translator.svg' %}" alt=""></div>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div style="font-weight: 600;">At your service 24/7</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div style="font-weight: 600;">Always learning</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                    <div style="font-weight: 600;">Multi-lingual</div>
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-lg-4 col-md-4 col-sm-4" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                    <p>I never sleep. I’m here to help you whenever <br>
+                        you need to talk to someone at Boubyan <br>
+                        about your financial needs.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                    <p>I’ve been a bot for 2 years but I’m learning <br>
+                        everyday. If there’s something I don’t know, <br>
+                        I’ll make sure I learn it to serve you better.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                    <p>I’m well versed with English and Arabic but <br>
+                        I’m learning new languages too</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center mt-5">
+                    <button type="button" class="btn btn-outline-danger btn-sm w-20 p-3">Let me show you more</button>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-lg-11 col-md-11 col-sm-11 d-flex justify-content-center">
+                    <h5>Learn more about offered features</h5>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-11 d-flex justify-content-center">
+                    <p style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                        We are always working to enhance your experiences with innovative solutions</p>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="card shadow" style="width: 15rem; height: 15rem; border: none;">
+                        <img class="card-img-top" src="{% static 'images/mask-phone.jpg' %}" alt="Card image cap"
+                            height="130erm">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Pay Me</h5>
+                            <p class="card-text" style="font-size: 14px; text-align: center; color: #9ea0a1;">Receive
+                                money in your Boubyan Bank <br>
+                                account from any local bank account</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="card shadow" style="width: 15rem; height: 15rem; border: none;">
+                        <img class="card-img-top" src="{% static 'images/westrn.jpg' %}" alt="Card image cap"
+                            height="130erm">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Western Union</h5>
+                            <p class="card-text" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                                Transfer money anywhere and <br>
+                                anytime with Western Union</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="card shadow" style="width: 15rem; height: 15rem; border: none;">
+                        <img class="card-img-top" src="{% static 'images/mask-pass.jpg' %}" alt="Card image cap"
+                            height="130erm">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Travel notification</h5>
+                            <p class="card-text" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                                Ensures your cards continue to work <br>
+                                without interruptions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="card shadow" style="width: 15rem; height: 15rem; border: none;">
+                        <img class="card-img-top" src="{% static 'images/mask.jpg' %}" alt="Card image cap"
+                            height="130px">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Spending insights</h5>
+                            <p class="card-text" style="font-size: 14px; text-align: center; color: #9ea0a1;">
+                                Innovation tool to track your spending <br>
+                                habits.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+
+                <div class="col-lg-11 col-md-11 col-sm-11 d-flex justify-content-center">
+                    <h4>Our users love the app!</h4>
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-11 d-flex justify-content-center mt-3">
+                    <p style="font-size: 16px; text-align: center; color: #9ea0a1;">
+                        Thank Boubyan for making my bank on my pocket! Now I can travel without fears</p>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="card shadow rounded" style="width: 60rem; height: 10rem; border: none;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;">Convinced? Download the Boubyan app now!
+                            </h5>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a><img src="{% static 'images/google.png' %}" alt="" height="50px" width="150px"></a>
+                                <a style="margin: 20px;"></a>
+                                <a><img src="{% static 'images/apple.png' %}" alt="" height="50px" width="150px"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Love App -->
+
+    <div style="margin-bottom: 300px;"></div>
+
+    <!-- Start Footer -->
+    <footer class="nb-footer">
+        <div class="container">
+
+            <!-- section 1 -->
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single">
+                        <h2 class="title">Types of banking</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"> Personal</a></li>
+                            <li><a href="#"> Private</a></li>
+                            <li><a href="#"> Business</a></li>
+                            <li><a href="#"> Corporate</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single">
+                        <h2 class="title">Investor relations</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> Financial reports</a></li>
+                            <li><a href="#" title=""> Annual reports</a></li>
+                            <li><a href="#" title=""> Disclosures</a></li>
+                            <li><a href="#" title=""> Corporate governance</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title">BEST PERFORMING <br>
+                            ISLAMIC BANK</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in the world</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title">BANK OF THE <br>
+                            YEAR</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title">BEST CUSTOMER <br>
+                            SERVICE</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Section 2 -->
+            <div class="row">
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single">
+                        <h2 class="title">About us</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"> The Boubyan Group</a></li>
+                            <li><a href="#"> Management</a></li>
+                            <li><a href="#"> Awards</a></li>
+                            <li><a href="#"> Investor relations</a></li>
+                            <li><a href="#"> News & press releases</a></li>
+                            <li><a href="#"> Social responsibility</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single">
+                        <h2 class="title">Useful information</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> Banking awareness</a></li>
+                            <li><a href="#" title=""> Ministry salaries</a></li>
+                            <li><a href="#" title=""> Exchange rate</a></li>
+                            <li><a href="#" title=""> E-Brochures</a></li>
+                            <li><a href="#" title=""> Tutorials</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title f-margining">BEST ISLAMIC <br>
+                            DIGITAL BANK </h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Middle East and Kuwait</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title f-margining">MOST INNOVATIVE <br>
+                            DIGITAL BANK</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- <div class="col-md-2 col-sm-2">
+                    <div class="footer-info-single">
+                        <h2 class="title">BEST CUSTOMER <br>
+                            SERVICE</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+
+                    </div>
+                </div> -->
+
+            </div>
+
+            <!-- Section 3 -->
+            <div class="row">
+                <div class="col-md-2 col-sm-2" style="margin-left: 440px; margin-top: -200px;">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title">BEST MOBILE <br>
+                            BANKING APP</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-2" style="margin-top: -200px;">
+                    <div class="footer-info-single footer-single-border">
+                        <h2 class="title">BEST INNOVATION <br>
+                            IN IMAL TECHNOLOGY</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#" title=""> in Kuwait</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- section 3 social -->
+            <div class="row">
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="footer-info-single">
+                        <div class="boubyan-footer">
+                            <div style="border-left: 30px solid white;">
+                                <p>Boubyan support @1802002</p>
+                                <p style="margin-top: -20px;">Speak to our customer representative</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="footer-info-single">
+                        <div class="boubyan-footer">
+                            <img src="{% static 'images/instagram.png' %}" alt="no img" height="40px" width="40px">
+                            <img src="{% static 'images/twitter.png' %}" alt="no img" height="40px" width="40px">
+                            <img src="{% static 'images/snap.png' %}" alt="no img" height="40px" width="40px">
+                            <img src="{% static 'images/youtube.png' %}" alt="no img" height="40px" width="40px">
+                            <img src="{% static 'images/in.png' %}" alt="no img" height="40px" width="40px">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4">
+                    <div class="footer-info-single">
+                        <div class="boubyan-footer">
+                        <img src="{% static 'images/shape (2).svg' %}" alt="no img"> <span style="color: white;">Download Boubyan app</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <p style="font-size: 11px;">© Copyright 2018. Boubyan Bank. All Rights Reserved</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Sitemap</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Banking & financial awareness</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Terms & conditions</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Fees & commission</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Legal statement</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Privacy policy</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Disclaimers</p>
+                    </div>
+                    <div class="col-sm-1">
+                        <p style="font-size: 11px;">Copyrights</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+
+
+
+
 
 
     <!-- {% cms_toolbar %} -->
@@ -437,7 +830,6 @@
         {% block content %}{% endblock content %}
     </div>
 
-    <div style="margin-bottom: 500px;"></div>
     {% render_block "js" %}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
