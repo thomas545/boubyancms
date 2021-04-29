@@ -77,6 +77,7 @@ footer.nb-footer .footer-info-single ul li a {
 footer.nb-footer .footer-info-single ul li a:hover {
     color: #dadada;
 }
+
 footer.nb-footer .footer-info-single ul li a {
     text-decoration: none;
 }
@@ -99,25 +100,33 @@ footer.nb-footer .copyright p {
     padding: 0;
 }
 
-.list-unstyled{
+.list-unstyled {
     margin-left: 8px;
 }
 
-.f-margining{
-
+.f-margining {
     margin-top: -70px;
-
 }
 
-.footer-single-border{
-    border-left: 20px solid white;
+.footer-single-border {
+    border-left: 42px solid white;
 }
 
-.boubyan-footer{
+.boubyan-footer {
     background-color: rgb(100, 100, 100);
     border-radius: 200px;
     padding: 14px 0px 23px 24px;
     width: 290px;
     height: 66px;
+}
 
+.mini-footer {
+    font-size: 11px;
+    width: 150px;
+    margin-left: -56px;
+}
+
+.copyright-boubyan{
+    margin-right: 200px;
+    margin-left: -120px;
 }
